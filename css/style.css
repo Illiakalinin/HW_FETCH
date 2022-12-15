@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 650px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 0.8em;
+}
+
+.catImg {
+  height: 300px;
+  width: 300px;
+  object-fit: contain;
+}
+
+button {
+  transition-duration: 0.5s;
+  border-color: orange;
+  border-radius: 12px;
+  font-size: 1.1em;
+}
+
+button:hover {
+  background-color: orange;
+  color: white;
+}
+
+.container,
+p,
+img,
+button {
+  margin-top: 15px;
+}
